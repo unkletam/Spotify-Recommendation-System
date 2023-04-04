@@ -42,7 +42,9 @@ To ensure that our song lookup works, we used a library called ‘spotipy’. Sp
 Once we have the necessary credentials, we used spotipy’s inbuilt functions to access and search songs and their features so that we can feed it as an input to our recommender system.
 ![banner](assets/implementation2.png)
 Once we have the necessary input data provided by Spotify API, we move on to assigning cluster, calculating mean vectors for our existing dataset songs and lastly calculating cosine similarity. Cosine similarity is a commonly used measure of similarity between two non-zero vectors. It measures the cosine of the angle between the two vectors in a multi-dimensional space, where the value ranges from -1 (for opposite directions) to 1 (for the same direction).
+
 ![banner](assets/cosine.png)
+
 In other words, it is a measurement of how similar two vectors are in terms of their orientation. The closer the cosine similarity value is to 1, the more similar the vectors are, and the closer it is to -1, the more dissimilar they are. A value of 0 indicates that the vectors are orthogonal (perpendicular) to each other.
 
 
